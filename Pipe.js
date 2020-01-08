@@ -2,7 +2,7 @@ class Pipe {
   constructor(bird) {
     this.bird = bird
     this.spawnX = 400
-    this.gapSize = 130
+    this.gapSize = 125
     this.padding = 50
     this.width = 50
     this.speed = 5;
