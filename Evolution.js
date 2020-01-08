@@ -56,7 +56,7 @@ class Evolution {
       let input = [
         this.bird.y,
         this.bird.y - (this.pipe.upperSection.y + this.pipe.upperSection.h),
-        this.pipe.lowerSection.y - this.bird.y,
+        this.pipe.lowerSection.y - (this.bird.y + this.bird.h),
         this.pipe.upperSection.x - (this.bird.x + this.bird.w),
         this.bird.yVel
       ]
