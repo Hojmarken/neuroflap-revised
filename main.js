@@ -22,7 +22,7 @@ function simulateEnviroment() {
   let input = [
     bird.y,
     bird.y - (pipe.upperSection.y + pipe.upperSection.h),
-    pipe.lowerSection.y - bird.y,
+    pipe.lowerSection.y - (bird.y + bird.h),
     pipe.upperSection.x - (bird.x + bird.w),
     bird.yVel
   ]
