@@ -1,9 +1,9 @@
 class Evolution {
   constructor() {
     this.generation = 0
-    this.populationSize = 500
+    this.populationSize = 1000
     this.geneMutationRate = 0.2
-    this.individualMutationRate = 0.2
+    this.individualMutationRate = 0.3
     this.nnArchitecture = [5, 2, 1]
     this.population = []
     this.fittestIndividual
